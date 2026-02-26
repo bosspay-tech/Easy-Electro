@@ -51,10 +51,7 @@ export default function Navbar() {
             className="flex items-center gap-2 rounded-xl px-2 py-1 font-extrabold tracking-tight text-white hover:bg-white/5"
             aria-label="Go to homepage"
           >
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-cyan-500 text-slate-950">
-              ⚡
-            </span>
-            <span className="text-base sm:text-lg">Easy Electro</span>
+            <img src="/electro_logo.png" alt="logo" className="h-20 w-26" />
           </Link>
         </div>
 

@@ -16,11 +16,8 @@ export default function Footer() {
               className="inline-flex items-center gap-3 rounded-2xl px-2 py-1 font-extrabold tracking-tight text-white hover:bg-white/5"
               aria-label="Go to homepage"
             >
-              <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-cyan-500 text-slate-950 shadow-sm">
-                ⚡
-              </span>
+              <img src="/electro_logo.png" alt="logo" className="h-20 w-26" />
               <div className="leading-tight">
-                <div className="text-lg">Easy Electro</div>
                 <div className="text-xs font-semibold text-slate-300">
                   PCBs • ICs • Sensors • Connectors
                 </div>

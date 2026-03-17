@@ -1,4 +1,4 @@
-// ReturnsRefunds.jsx (dark electronics theme)
+// ReturnsRefunds.jsx (updated)
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -21,36 +21,73 @@ export default function ReturnsRefunds() {
         </div>
 
         <div className="mt-6 space-y-5 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-sm backdrop-blur">
+          {/* Return Window */}
           <section>
             <h2 className="text-sm font-bold text-white">Return Window</h2>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              We offer returns within{" "}
+              Returns are accepted within{" "}
               <span className="font-semibold text-slate-100">7 days</span> of
-              delivery (example). Requests raised after the window may not be
-              accepted.
+              delivery. Requests raised after this window may not be accepted.
             </p>
           </section>
 
+          {/* Eligibility & Conditions */}
           <section>
-            <h2 className="text-sm font-bold text-white">Eligibility</h2>
+            <h2 className="text-sm font-bold text-white">
+              Eligibility & Conditions
+            </h2>
             <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-              <li>Item must be unused and in original condition.</li>
-              <li>Original labels and packaging must be intact.</li>
-              <li>Return is subject to quality check upon pickup/receipt.</li>
+              <li>
+                Returns are only accepted if you received an incorrect item or
+                an item not listed on your bill due to our error.
+              </li>
+              <li>
+                We recommend recording a short video while opening your parcel.
+                This helps in case of defective or incorrect items.
+              </li>
+              <li>
+                For branded items, returns are accepted only if original
+                packaging and all contents are intact.
+              </li>
+              <li>
+                A return authorization is mandatory before sending any product
+                back.
+              </li>
+              <li>
+                Products sent without authorization will be returned to the
+                sender.
+              </li>
             </ul>
           </section>
 
+          {/* Non Returnable */}
           <section>
             <h2 className="text-sm font-bold text-white">
               Non-Returnable Items
             </h2>
             <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
-              <li>Items marked “Final Sale” (example).</li>
-              <li>Customized or altered products (if applicable).</li>
+              <li>Personalized or customized products.</li>
               <li>Products damaged due to misuse or mishandling.</li>
             </ul>
           </section>
 
+          {/* Return Process */}
+          <section>
+            <h2 className="text-sm font-bold text-white">Return Process</h2>
+            <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-300">
+              <li>Once approved, we will provide a return shipping label.</li>
+              <li>
+                You must securely pack the product with all original contents.
+              </li>
+              <li>We recommend using original packaging if available.</li>
+              <li>
+                Record a video while packing your return for verification.
+              </li>
+              <li>Our team will also record an unboxing video upon receipt.</li>
+            </ul>
+          </section>
+
+          {/* How to Initiate */}
           <section>
             <h2 className="text-sm font-bold text-white">
               How to Initiate a Return
@@ -63,49 +100,54 @@ export default function ReturnsRefunds() {
                 </span>{" "}
                 with your order ID.
               </li>
-              <li>Share images if the product is damaged/incorrect.</li>
               <li>
-                We will arrange pickup (subject to serviceability) or provide
-                return instructions.
+                Share images/video if the product is damaged or incorrect.
+              </li>
+              <li>
+                We will arrange pickup (if serviceable) or provide return
+                instructions.
               </li>
             </ol>
           </section>
 
+          {/* Exchange */}
           <section>
             <h2 className="text-sm font-bold text-white">Exchange</h2>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              Exchanges are available (subject to stock). If the requested item
-              is unavailable, we will process a refund or store credit as per
-              your preference.
+              Exchanges are available for the same product (subject to
+              availability). If unavailable, a refund or store credit will be
+              provided.
             </p>
           </section>
 
+          {/* Refunds */}
           <section>
             <h2 className="text-sm font-bold text-white">Refunds</h2>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              Once the returned item passes quality check, refunds are processed
-              within{" "}
+              Refunds are processed within{" "}
               <span className="font-semibold text-slate-100">
                 5–10 business days
               </span>{" "}
-              (example) to the original payment method. COD orders may be
-              refunded via bank transfer/UPI after verification.
+              after the item passes quality check. Shipping and packaging
+              charges are non-refundable. COD refunds are processed via bank
+              transfer/UPI after verification.
             </p>
           </section>
 
+          {/* Damaged */}
           <section>
             <h2 className="text-sm font-bold text-white">
               Damaged / Wrong Item
             </h2>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              If you receive a damaged or incorrect item, please contact us
-              within{" "}
-              <span className="font-semibold text-slate-100">48 hours</span> of
-              delivery with unboxing images/video (if available). We will
-              resolve it via replacement or refund.
+              If you receive a damaged or incorrect item, contact us within{" "}
+              <span className="font-semibold text-slate-100">48 hours</span>{" "}
+              with images or unboxing video. We will resolve it via replacement
+              or refund.
             </p>
           </section>
 
+          {/* Contact */}
           <section>
             <h2 className="text-sm font-bold text-white">Contact</h2>
             <p className="mt-2 text-sm leading-6 text-slate-300">

@@ -22,7 +22,7 @@ export default function Contact() {
               COMPANY
             </div>
             <h2 className="mt-2 text-lg font-extrabold text-white">
-              ONLINE ELECTRO ENTERPRISES PRIVATE LIMITED
+              EASY ONLINE ELECTRO ENTERPRISES PRIVATE LIMITED
             </h2>
 
             <div className="mt-5 space-y-4 text-sm text-slate-300">
@@ -49,6 +49,28 @@ export default function Contact() {
                   +91 9342491462
                 </a>
               </div>
+              <div>
+                <div className="text-xs font-semibold tracking-widest text-slate-400">
+                  GST
+                </div>
+                <a
+                  href="tel:+917048179839"
+                  className="mt-1 inline-flex items-center gap-2 font-semibold text-white hover:text-cyan-300"
+                >
+                  33AAJCE5444Q1Z5
+                </a>
+              </div>
+              <div>
+                <div className="text-xs font-semibold tracking-widest text-slate-400">
+                  CIN
+                </div>
+                <a
+                  href="tel:+917048179839"
+                  className="mt-1 inline-flex items-center gap-2 font-semibold text-white hover:text-cyan-300"
+                >
+                  U47640TN2026PTC190322
+                </a>
+              </div>
             </div>
 
             {/* Quick actions */}
@@ -58,16 +80,6 @@ export default function Contact() {
                 className="inline-flex w-full items-center justify-center rounded-2xl bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 focus:outline-none focus:ring-4 focus:ring-cyan-500/20"
               >
                 Call Now
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                  "4th Floor,434, Shiven Square, Pal Road, opp swsthik party plot, Adajan, Surat, Gujarat 395009",
-                )}`}
-                className="inline-flex w-full items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-slate-100 transition hover:bg-white/10 focus:outline-none focus:ring-4 focus:ring-white/10 backdrop-blur"
-              >
-                Open in Maps
               </a>
             </div>
           </div>

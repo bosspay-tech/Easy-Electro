@@ -52,6 +52,7 @@ export default function Navbar() {
             aria-label="Go to homepage"
           >
             <img src="/electro_logo.png" alt="logo" className="h-20 w-26" />
+            <span>EASY ONLINE ELECTRO ENTERPRISES PRIVATE LIMITED</span>
           </Link>
         </div>
 

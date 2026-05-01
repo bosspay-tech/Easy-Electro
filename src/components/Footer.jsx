@@ -164,6 +164,14 @@ export default function Footer() {
                       Contact
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="text-slate-300 hover:text-white"
+                      to="/about"
+                    >
+                      About Us
+                    </Link>
+                  </li>
                 </ul>
 
                 <div className="mt-5 flex flex-wrap gap-2 text-xs">
